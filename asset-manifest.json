@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AnthonyUPTN/goit-react-hw-01-components/static/css/main.1740c7b1.css",
+    "main.js": "/AnthonyUPTN/goit-react-hw-01-components/static/js/main.0a53ca0c.js",
+    "index.html": "/AnthonyUPTN/goit-react-hw-01-components/index.html",
+    "main.1740c7b1.css.map": "/AnthonyUPTN/goit-react-hw-01-components/static/css/main.1740c7b1.css.map",
+    "main.0a53ca0c.js.map": "/AnthonyUPTN/goit-react-hw-01-components/static/js/main.0a53ca0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1740c7b1.css",
+    "static/js/main.0a53ca0c.js"
+  ]
+}
