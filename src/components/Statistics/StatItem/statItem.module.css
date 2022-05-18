@@ -1,0 +1,20 @@
+.item {
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-basis: calc(100% / 4);
+  background-color: rgb(211, 211, 211);
+  font-weight: 500;
+  color: rgb(50, 50, 50);
+}
+
+.label {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.percentage {
+  font-size: 22px;
+}
