@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import FriendCard from './FriendCard';
 import s from './friendList.module.css'
 
