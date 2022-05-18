@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types'
 import Transactions from './Transactions'
 import s from './transactionHistory.module.css'
 
