@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types'
 import s from './friendCard.module.css'
 
 function FriendCard({ friends }) { 
@@ -17,12 +16,3 @@ function FriendCard({ friends }) {
 }
 
 export default FriendCard;
-
-
-FriendCard.propTypes = {
-    friends: PropTypes.arrayOf(PropTypes.shape({
-        isOnline: PropTypes.bool,
-        avatar: PropTypes.string.isRequired,
-        name: PropTypes.string.isRequired,
-    }))
-}

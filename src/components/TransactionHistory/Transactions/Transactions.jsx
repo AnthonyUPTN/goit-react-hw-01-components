@@ -1,5 +1,3 @@
-import PropTypes from 'prop-types';
-
 function Transactions({data}) {
 
     const elements = data.map(el => {
@@ -15,11 +13,3 @@ function Transactions({data}) {
 }
 
 export default Transactions;
-
-Transactions.propTypes = {
-    data: PropTypes.arrayOf(PropTypes.shape({
-        type: PropTypes.string.isRequired,
-        amount: PropTypes.string.isRequired,
-        currency: PropTypes.string.isRequired,
-    }))
-}

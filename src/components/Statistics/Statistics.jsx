@@ -21,5 +21,8 @@ Statistics.defaultProps = {
 
 Statistics.propTypes = {
   title: PropTypes.string,
-  stats: PropTypes.array.isRequired,
+  data: PropTypes.arrayOf(PropTypes.shape({
+   label: PropTypes.string.isRequired,
+    percentage: PropTypes.number.isRequired,
+ }))
 }

@@ -27,5 +27,9 @@ TransactionHistory.defaultProps = {
 }
 
 TransactionHistory.propTypes = {
-  items: PropTypes.array.isRequired,
+    data: PropTypes.arrayOf(PropTypes.shape({
+        type: PropTypes.string.isRequired,
+        amount: PropTypes.string.isRequired,
+        currency: PropTypes.string.isRequired,
+    }))
 }

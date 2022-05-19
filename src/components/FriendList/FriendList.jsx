@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import FriendCard from './FriendCard';
 import s from './friendList.module.css'
 
@@ -10,3 +11,15 @@ function FriendList({data}) {
 }
 
 export default FriendList;
+
+FriendList.defaultProps = {
+    items: [],
+}
+
+FriendList.propTypes = {
+    friends: PropTypes.arrayOf(PropTypes.shape({
+        isOnline: PropTypes.bool,
+        avatar: PropTypes.string.isRequired,
+        name: PropTypes.string.isRequired,
+    }))
+}

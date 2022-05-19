@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import s from './statItem.module.css'
 
 function generateColor() {
@@ -15,10 +14,5 @@ function StatItem({data}) {
 
 export default StatItem;
 
-StatItem.propTypes = {
-  data: PropTypes.arrayOf(PropTypes.shape({
-   label: PropTypes.string.isRequired,
-    percentage: PropTypes.number.isRequired,
- }))
-}
+
 
