@@ -20,3 +20,7 @@ function TransactionHistory({items}) {
 }
 
 export default TransactionHistory;
+
+TransactionHistory.propTypes = {
+  items: PropTypes.array.isRequired,
+}

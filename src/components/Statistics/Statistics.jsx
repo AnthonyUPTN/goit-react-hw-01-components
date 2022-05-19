@@ -20,5 +20,6 @@ Statistics.defaultProps = {
 }
 
 Statistics.propTypes = {
-    title: PropTypes.string,
+  title: PropTypes.string,
+  stats: PropTypes.array.isRequired,
 }
