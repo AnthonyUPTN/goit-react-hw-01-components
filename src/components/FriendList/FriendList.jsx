@@ -18,6 +18,7 @@ FriendList.defaultProps = {
 
 FriendList.propTypes = {
     friends: PropTypes.arrayOf(PropTypes.shape({
+        id: PropTypes.string.isRequired,
         isOnline: PropTypes.bool,
         avatar: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
